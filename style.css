@@ -2,8 +2,10 @@
  * Add your CSS styles to this file.
  */
 body {
-	background-color: #474842;
+	padding:0px;
 	margin: 0px;
+  background: #ffffff no-repeat fixed center;
+	background-size: cover;
 }
 .header {
 	margin: 0px 0px;
@@ -46,17 +48,6 @@ p {
 	margin: 0px;
 	padding: 0px;
 }
-.sidebar {
-	display: inline-block;
-	padding: 10px;
-	width: 180px;
-	height: 100%vh;
-	background-color: #272822;
-	float: right;
-}
-.card-holder {
-	display: inline;
-}
 .face {
 	display: inline-block;
 	border-radius: 10px;
@@ -78,4 +69,39 @@ p {
 }
 .filler {
 	height: 240px;
+}
+a {
+	text-decoration: none;
+}
+
+.navbar{
+	width: 100%;
+  background-color: #d2dcdc;
+}
+.navbar a{
+	float: left;
+	padding: 12px;
+	width: 25%;
+	text-align: center;
+	width: 106px;
+	color: darkslategray;
+}
+ul.navlist {
+	text-align: center;
+}
+.item {
+	display: inline-block;
+}
+.title{
+	text-align: center;
+	font-size: 40px;
+	position: relative;
+	top: 58px;
+}
+
+.content {
+	text-align:center;
+	font-size: 20px;
+	position: relative;
+	top: 68px;
 }
